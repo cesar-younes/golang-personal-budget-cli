@@ -6,9 +6,8 @@ type Budget struct {
 	Items []Item
 }
 
+// Item stores item information
 type Item struct {
 	Description string
 	Price       float32
 }
-
-// Item stores item information
